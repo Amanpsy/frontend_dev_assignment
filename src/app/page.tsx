@@ -1,12 +1,12 @@
 'use client'
 
-import { WorkerType } from '@/types/workers'
 import { useState, useEffect, useMemo, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Grid, GridCellProps } from 'react-virtualized'
 import 'react-virtualized/styles.css'
 import WorkerCard from './components/WorkerCard'
 import { gsap } from 'gsap'
+import { WorkerType } from '@/types/workers'
 
 export default function WorkersPage() {
   const [workersData, setWorkersData] = useState<WorkerType[]>([])
