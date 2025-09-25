@@ -48,6 +48,7 @@ const WorkerCard: React.FC<Props> = ({ worker, style }) => {
               fill
               className="object-cover"
               loading="lazy"
+              unoptimized
             />
           </div>
           <div className="p-4 flex-1 flex flex-col justify-between">
